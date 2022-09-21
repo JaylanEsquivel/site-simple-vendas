@@ -97,4 +97,21 @@ body {
 .bg-dark {
   background-color: #000 !important;
   border-bottom: 2px #181616 solid;
+}
+
+@media (max-width: 1024px) {
+  #text-meio-top {
+    display: none !important;
+  }
+  .card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  #text-meio-top {
+    display: none !important;
+  }
 }/*# sourceMappingURL=style.css.map */
