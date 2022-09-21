@@ -17,6 +17,12 @@ body{
     color: $whrite_color;
 }
 
+.navbar{
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
 #text-meio-top span{
     font-size: 18px;
     padding-top: 8px;
