@@ -16,3 +16,79 @@ body{
     background-color: $black_color;
     color: $whrite_color;
 }
+
+#text-meio-top span{
+    font-size: 18px;
+    padding-top: 8px;
+    font-family: Montserrat-Light;
+
+}
+
+.btn-danger{
+    background-color: $bg_danger;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+#top-1{
+    background-image: url('../img/bg-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    #text-inform{
+        padding-top: 30px;
+        p{
+            font-family: Montserrat-Light;
+        }
+    }
+    #image-1 img{
+        padding-top: 30px;
+    }
+}
+
+#top-2{
+    background-color: $bg_danger;
+    .elemento-one{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 40px;
+    }
+}
+
+#top-3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .card{
+        color: $text_main;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        i{
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: Montserrat-Light;
+            padding-top: 20px;
+        }
+    }
+    .elemento-two{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+.bg-dark{
+    background-color: $text_main !important;
+    border-bottom: 2px #181616 solid;    
+}
+

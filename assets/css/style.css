@@ -27,4 +27,74 @@ body {
   height: 100vh;
   background-color: #141414;
   color: #fff;
+}
+
+#text-meio-top span {
+  font-size: 18px;
+  padding-top: 8px;
+  font-family: Montserrat-Light;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#top-1 {
+  background-image: url("../img/bg-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+#top-1 #text-inform {
+  padding-top: 30px;
+}
+#top-1 #text-inform p {
+  font-family: Montserrat-Light;
+}
+#top-1 #image-1 img {
+  padding-top: 30px;
+}
+
+#top-2 {
+  background-color: #ff0000;
+}
+#top-2 .elemento-one {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+#top-3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#top-3 .card {
+  color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#top-3 .card i {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+#top-3 .card p {
+  font-family: Montserrat-Light;
+  padding-top: 20px;
+}
+#top-3 .elemento-two {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  border-bottom: 2px #181616 solid;
 }/*# sourceMappingURL=style.css.map */
